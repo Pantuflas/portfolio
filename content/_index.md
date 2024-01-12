@@ -1,26 +1,85 @@
 ---
-title: Introduction
+title: Profile
 type: docs
 ---
 
-# Acerbo datus maxime
+# Welcome!
+
+Greetings,
+
+This page contains my professional profile and portfolio, a curated showcase of my journey as technical writer. Feel free to explore the pages ahead to experience a gimple into my expertise and skills to deliver high-level  documentation.
+
+# Professional Profile
+José Antonio is a technical writer and IT professional with a background in frontend web development. He has two years of experience in technical writing, primarily in API and user guides documentation. He is passionate about learning new technologies and implementing them to find new solutions.
+
+Former experience:
+- Software engineer with knowledge in computer networks, data bases, logic, and problem resolution.
+- Front-end web developer of web pages and web apps using modern technologies using React as primary tool.
+
+## Employment History
+
+### Technical Writer at Wizeline, Remote
+June 2021 - Present
+
+Responsible of creating and editing documentation for different Wizeline;s customer to help them solve different need by providing constant communication and consultancy to stakeholder and internal development teams.
+
+Lead of internal teams in charge of helping the Technical Writing team members grow in different areas, such as:
+- Technical Learning
+- DocOps
+- Communication
+
+### Survey Programmer at Sermo, Puebla
+March 202 - March 2021
+
+Responsible of programming web surveys, communication with the customers and internal team members, giving feedback and recommendations to find optimal solutions from the technical and logical point of view according to the client expectations as well as providing alternative where needed.
+
+### Web Consultant and IT Engineer at LitecMx, Puebla
+January 2018 - August 2019
+
+Responsible of providing consultancy to the customer about tools and technologies for development of web sites. Also in charge of desing, instalation, and maintenance for customer's computer networks.
+
+## Skills
 
 {{< columns >}}
-## Astris ipse furtiva
+### Technical Skills
 
-Est in vagis et Pittheus tu arge accipiter regia iram vocatur nurus. Omnes ut
-olivae sensit **arma sorori** deducit, inesset **crudus**, ego vetuere aliis,
-modo arsit? Utinam rapta fiducia valuere litora _adicit cursu_, ad facies
+- Markdown (Expert)
+- Redoc (Advance)
+- HTML (Advance)
+- CSS (Advance)
+- Javascript (Intermediate)
+- API Testing (Intermediate)
+- React (Intermediate)
+- Git (Intermediate)
+- Databases (Intermediate)
 
 <--->
 
-## Suis quot vota
+### Documentation Skills
 
-Ea _furtique_ risere fratres edidit terrae magis. Colla tam mihi tenebat:
-miseram excita suadent es pecudes iam. Concilio _quam_ velatus posset ait quod
-nunc! Fragosis suae dextra geruntur functus vulgata.
+- User Guides (Expert)
+- APIs (Expert)
+- Written Translation (Proficient)
+- Process Flows (Proficient)
+- Software Architecture (Proficient)
+
+<--->
+
+### Power Skills
+
+- Storytelling (Advance)
+- Consultancy (Advance)
+- Analysis (Advance)
+- Teaching (Intermediate)
+
+
 {{< /columns >}}
 
+## Certifications
+- Introduction to Technical Writing, Wizeline (2021)
+
+## Education
+- Computer Science, Instituto Tecnológico y de Estudios Superiores de Monterrey, Puebla, Puebla. (2013 - 2019)
 
 ## Tempora nisi nunc
 
