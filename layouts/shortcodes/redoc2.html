@@ -1,0 +1,16 @@
+{{ $specUrl := .Get "specUrl" | default "" }}
+{{ $redocVersion := .Get "redocVersion" | default "latest" }}
+{{ $theme := .Get "theme" | default "default" }}
+
+<div id="redoc-container"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/redoc@{{ $redocVersion }}/bundles/redoc.standalone.js"></script>
+<script>
+    Redoc.init('{{ $specUrl }}', {
+        theme: { colors: { primary: { main: '{{ $theme }}' } } },
+        scrollYOffset: '.navbar',
+        hideLoading: true,
+        disableSidebar: true,
+        pathInMiddlePanel: true
+    }, document.getElementById('redoc-container'));
+</script>

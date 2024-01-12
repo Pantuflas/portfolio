@@ -10,5 +10,5 @@ This document is a
 
 ## 
 
-{{< redoc specUrl="../sampleAPI.json" redocVersion="2.0.0" theme="purple" >}}
+{{< redoc2 specUrl="../sampleAPI.json" redocVersion="2.0.0" theme="purple" >}}
 
