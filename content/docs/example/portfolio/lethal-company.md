@@ -2,6 +2,7 @@
 title: Lethal Company
 weight: 1
 bookHidden: false
+bookToc: false
 ---
 # Lethal Company
 

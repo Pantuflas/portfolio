@@ -1,0 +1,218 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Pokemon API",
+    "version": "1.0.0",
+    "description": "An example API for Pokemon data"
+  },
+  "paths": {
+    "/pokemon": {
+      "get": {
+        "summary": "Get a list of all Pokemon",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "format": "int64",
+                    "example": 1
+                  },
+                  "name": {
+                    "type": "string",
+                    "example": "Bulbasaur"
+                  },
+                  "type": {
+                    "type": "string",
+                    "example": "Grass/Poison"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Create a new Pokemon",
+        "parameters": [
+          {
+            "name": "pokemon",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "example": "Charmander"
+                },
+                "type": {
+                  "type": "string",
+                  "example": "Fire"
+                }
+              },
+              "required": [
+                "name",
+                "type"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Pokemon created successfully",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer",
+                  "format": "int64",
+                  "example": 4
+                },
+                "name": {
+                  "type": "string",
+                  "example": "Charmander"
+                },
+                "type": {
+                  "type": "string",
+                  "example": "Fire"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request - invalid input"
+          }
+        }
+      }
+    },
+    "/pokemon/{id}": {
+      "parameters": [
+        {
+          "name": "id",
+          "in": "path",
+          "required": true,
+          "type": "integer",
+          "format": "int64",
+          "description": "ID of the Pokemon"
+        }
+      ],
+      "get": {
+        "summary": "Get details of a specific Pokemon",
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer",
+                  "format": "int64",
+                  "example": 1
+                },
+                "name": {
+                  "type": "string",
+                  "example": "Bulbasaur"
+                },
+                "type": {
+                  "type": "string",
+                  "example": "Grass/Poison"
+                },
+                "description": {
+                  "type": "string",
+                  "example": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon."
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Pokemon not found"
+          }
+        }
+      },
+      "put": {
+        "summary": "Update details of a specific Pokemon",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "integer",
+            "format": "int64",
+            "description": "ID of the Pokemon"
+          },
+          {
+            "name": "pokemon",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "example": "Bulbasaur"
+                },
+                "type": {
+                  "type": "string",
+                  "example": "Grass/Poison"
+                },
+                "description": {
+                  "type": "string",
+                  "example": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon."
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Pokemon details updated successfully",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer",
+                  "format": "int64",
+                  "example": 1
+                },
+                "name": {
+                  "type": "string",
+                  "example": "Bulbasaur"
+                },
+                "type": {
+                  "type": "string",
+                  "example": "Grass/Poison"
+                },
+                "description": {
+                  "type": "string",
+                  "example": "A strange seed was planted on its back at birth. The plant sprouts and grows with this Pokemon."
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request - invalid input"
+          },
+          "404": {
+            "description": "Pokemon not found"
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete a specific Pokemon",
+        "responses": {
+          "204": {
+            "description": "Pokemon deleted successfully"
+          },
+          "404": {
+            "description": "Pokemon not found"
+          }
+        }
+      }
+    }
+  }
+}
