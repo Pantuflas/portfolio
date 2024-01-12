@@ -4,15 +4,16 @@ weight: 10
 
 # Introduction
 
-In the following sections you will find a curated collection of documents that showcase my expertise as a Technical Writer. The intention is to offer a glimpse of how I communicate technical information into comprehensible and user-friendly documents.
+In the following sections, you will find a curated collection of documents that showcase my expertise as a Technical Writer. The intention is to offer a glimpse of how I communicate technical information into comprehensible and user-friendly documents.
 
 
-## Mentem genus facietque salire tempus bracchia
+## Overview of document samples
 
-Lorem markdownum partu paterno Achillem. Habent amne generosi aderant ad pellem
-nec erat sustinet merces columque haec et, dixit minus nutrit accipiam subibis
-subdidit. Temeraria servatum agros qui sed fulva facta. Primum ultima, dedit,
-suo quisque linguae medentes fixo: tum petis.
+The following list summarizes the document samples you will find on the portfolio:
+
+- **Lethal Company Mod Installation Guides**: These documents are User Guides that explain the process to install and enable the use of a modifier (mod) for the videogame Lethal Company. I created 3 different versions for this guide to address 3 different audiences. The main goal of doing this exercise is to prove how readers with different levels of mastery of a topic, can achieve the same results if presented with the appropiate documentation.
+
+- **PokeAPI**:
 
 ## Rapit vocant si hunc siste adspice
 
