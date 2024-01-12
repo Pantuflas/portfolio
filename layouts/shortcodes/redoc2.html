@@ -1,6 +1,16 @@
 {{ $specUrl := .Get "specUrl" | default "" }}
 {{ $redocVersion := .Get "redocVersion" | default "latest" }}
-{{ $theme := .Get "theme" | default "default" }}
+{{ $theme := .Get "theme" | default "light" }}
+
+<style>
+
+
+    #redoc-container {
+      margin: 0;
+      padding: 20px; /* Adjust padding as needed */
+      background-color: white; /* Set the background color of the ReDoc container to white */
+    }
+  </style>
 
 <div id="redoc-container"></div>
 
